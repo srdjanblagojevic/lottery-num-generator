@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div *ngFor="let lotteryNumber of lotteryNumbers" class="col-xs-1" [ngClass]="[getNumberColor(lotteryNumber)]">
+            {{ lotteryNumber }}
+        </div>
+    </div>
+</div>
+<div class="container">
+    <label for="lotteryNumbersCount">Number of lottery balls:</label>
+    <input type="number" name="lotteryNumbersCount" [(ngModel)]="lotteryNumbersCount">
+    <button class="btn btn-primary" (click)="onClick()">Generate Lottery Numbers</button>
+</div>

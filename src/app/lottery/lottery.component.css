@@ -1,0 +1,26 @@
+.lottery-number {
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    color: black;
+}
+
+.lottery-gray {
+    border-color: gray;
+}
+
+.lottery-blue {
+    border-color: blue;
+}
+
+.lottery-pink {
+    border-color: pink;
+}
+
+.lottery-green {
+    border-color: green;
+}
+
+.lottery-yellow {
+    border-color: yellow;
+}
